@@ -1,7 +1,7 @@
 CREATE DATABASE employees;
 
 CREATE TABLE seating_chart (
-  floor_seat_seq INT PRIMARY KEY AUTO_INCREMENT,
+  floor_seat_seq INT AUTO_INCREMENT PRIMARY KEY,
   floor_no INT,
   seat_no INT
 );

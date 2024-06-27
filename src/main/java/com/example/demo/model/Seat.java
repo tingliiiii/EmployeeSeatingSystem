@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class SeatingChart {
+public class Seat {
 
 	private Integer floorSeatSql;
 	private Integer floorNo;
