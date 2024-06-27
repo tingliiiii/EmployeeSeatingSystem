@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class Seat {
 
-	private Integer floorSeatSql;
+	private Integer floorSeatSeq;
 	private Integer floorNo;
 	private Integer seatNo;
 }

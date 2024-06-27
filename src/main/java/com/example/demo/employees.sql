@@ -1,4 +1,4 @@
-CREATE DATABASE employees;
+CREATE DATABASE office;
 
 CREATE TABLE seating_chart (
   floor_seat_seq INT AUTO_INCREMENT PRIMARY KEY,
@@ -13,6 +13,7 @@ CREATE TABLE employees (
   floor_seat_seq INT,
   FOREIGN KEY (floor_seat_seq) REFERENCES seating_chart(floor_seat_seq)
 );
+
 
 INSERT INTO seating_chart (floor_no, seat_no)
 VALUES (1, 1), (1, 2), (1, 3), (1, 4),
