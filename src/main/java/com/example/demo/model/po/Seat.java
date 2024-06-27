@@ -1,4 +1,4 @@
-package com.example.demo.model;
+package com.example.demo.model.po;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,10 +7,10 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Employee {
- 
-	private Integer empId;
-	private String name;
-	private String email;
+public class Seat {
+
 	private Integer floorSeatSeq;
+	private Integer floorNo;
+	private Integer seatNo;
+	private Integer empId;
 }

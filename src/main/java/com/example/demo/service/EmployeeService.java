@@ -6,24 +6,20 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.example.demo.dao.EmployeeDao;
-import com.example.demo.model.Employee;
+import com.example.demo.model.po.Employee;
 
 @Service
 public class EmployeeService {
-	
+
 	@Autowired
 	private EmployeeDao employeeDao;
 
-	public int addEmployee(Employee employee) {
-		return employeeDao.addEmployee(employee);
+	public boolean addEmployee(Employee employee) {
+		return employeeDao.addEmployee(employee) > 0;
 	}
 
-	public int deleteEmployee(Integer empId) {
-		return employeeDao.deleteEmployee(empId);
-	}
-
-	public int updateEmployee(Integer empId, Integer floorSeatSeq) {
-		return employeeDao.updateEmployee(empId, floorSeatSeq);
+	public boolean deleteEmployee(Integer empId) {
+		return employeeDao.deleteEmployee(empId) > 0;
 	}
 
 	public Employee getEmployee(Integer empId) {

@@ -1,12 +1,17 @@
-CREATE DATABASE office;
+CREATE DATABASE IF NOT EXISTS office;
 
-CREATE TABLE seating_chart (
+DROP TABLE seating_chart;
+DROP TABLE employees;
+CREATE TABLE IF NOT EXISTS seating_chart (
   floor_seat_seq INT AUTO_INCREMENT PRIMARY KEY,
   floor_no INT,
-  seat_no INT
+  seat_no INT,
+  emp_id CHAR(5)
 );
 
-CREATE TABLE employees (
+ALTER TABLE seating_chart ADD CONSTRAINT FOREIGN KEY (emp_id) REFERENCES employees(emp_id) ON DELETE SET NULL;
+
+CREATE TABLE IF NOT EXISTS employees (
   emp_id CHAR(5) PRIMARY KEY,
   name VARCHAR(100),
   email VARCHAR(100),

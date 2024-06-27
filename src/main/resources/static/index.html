@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Employee Seating System</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./layout.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+        <script src="./index.js"></script>
+    </head>
+
+    <body>
+        <div class="container mt-5">
+            <h1 class="text-center">Employee Seating System</h1>
+            <table class="table">
+                <tr>
+                    <td colspan="3">
+                        <div id="seating-chart" class="m-4"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="m-4">
+                            <h2 class="m-4 text-center">調整員工座位</h2>
+                            <label for="employee" class="form-label">員工</label>
+                            <select id="employee" class="form-select">
+                                <option value="" selected disabled>請選擇員工</option>
+                            </select>
+                            <div class="text-center mt-3">
+                                <button id="submit" class="btn btn-primary mt-3">調整座位</button>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="m-4">
+                            <h2 class="m-4 text-center">新增員工</h2>
+                            <form id="add-employee-form">
+                                <label for="new-emp-id" class="form-label">員工編號</label>
+                                <input type="number" id="new-emp-id" class="form-control" pattern="[0-9]{5}"
+                                    placeholder="請輸入五位數字" required>
+                                <label for="new-emp-name" class="form-label mt-2">姓名</label>
+                                <input type="text" id="new-emp-name" class="form-control" placeholder="請輸入姓名" required>
+                                <label for="new-emp-email" class="form-label mt-2">email</label>
+                                <input type="email" id="new-emp-email" class="form-control" placeholder="請輸入email"
+                                    required>
+                                <div class="text-center mt-3">
+                                    <button id="add-employee" class="btn btn-primary m-1">新增員工</button>
+                                    <button id="clear-employee-form" class="btn btn-outline-primary m-1">取消</button>
+                                </div>
+                            </form>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="m-4">
+                            <h2 class="m-4 text-center">新增座位</h2>
+                            <form id="add-seat-form">
+                                <label for="new-floor-no" class="form-label">樓層</label>
+                                <input type="number" id="new-floor-no" class="form-control" placeholder="請輸入樓層數">
+                                <label for="new-seat-no" class="form-label mt-2">座位號碼</label>
+                                <input type="number" id="new-seat-no" class="form-control" placeholder="請輸入座位號碼">
+                                <div class="text-center mt-3">
+                                    <button id="add-seat" class="btn btn-primary m-1">新增座位</button>
+                                    <button id="clear-seat-form" class="btn btn-outline-primary m-1">取消</button>
+                                </div>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+
+</html>

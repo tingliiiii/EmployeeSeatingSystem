@@ -2,7 +2,7 @@ package com.example.demo.dao;
 
 import java.util.List;
 
-import com.example.demo.model.Employee;
+import com.example.demo.model.po.Employee;
 
 public interface EmployeeDao {
 
