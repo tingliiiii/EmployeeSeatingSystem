@@ -31,7 +31,12 @@ public class SeatService {
 	public boolean updateSeat(Integer floorSeatSeq, Integer empId) {
 		try {
 			Employee employee = employeeDao.getEmployee(empId);
-			boolean state1 = seatingDao.clearSeat(employee.getFloorSeatSeq()) > 0;
+			boolean state1 = false;
+			if (employee.getFloorSeatSeq() == null) {
+				state1 = true;
+			} else {
+				state1 = seatingDao.clearSeat(employee.getFloorSeatSeq()) > 0;
+			}
 			boolean state2 = seatingDao.updateSeat(floorSeatSeq, empId) > 0;
 			boolean state3 = employeeDao.updateEmployee(empId, floorSeatSeq) > 0;
 

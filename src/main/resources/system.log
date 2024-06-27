@@ -58,3 +58,5 @@
 2024-06-28T02:06:24.187+08:00  INFO 20068 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Starting EmployeeSeatingSystemApplication using Java 17.0.10 with PID 20068 (/Users/liutingli/Desktop/esun/Employee-Seating-System/target/classes started by liutingli in /Users/liutingli/Desktop/esun/Employee-Seating-System)
 2024-06-28T02:06:24.188+08:00  INFO 20068 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : No active profile set, falling back to 1 default profile: "default"
 2024-06-28T02:06:24.985+08:00  INFO 20068 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Started EmployeeSeatingSystemApplication in 0.935 seconds (process running for 1.183)
+2024-06-28T02:08:46.745+08:00  INFO 20068 --- [Employee-Seating-System] [http-nio-8081-exec-2] c.e.demo.controller.SeatController       : updateSeat: UpdateSeat(empId=13040, floorSeatSeq=9)
+2024-06-28T02:08:46.781+08:00 ERROR 20068 --- [Employee-Seating-System] [http-nio-8081-exec-2] com.example.demo.service.SeatService     : Failed to update seat and employee data
