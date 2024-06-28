@@ -1,0 +1,227 @@
+2024-06-28T00:00:46.237+08:00  WARN 16807 --- [Employee-Seating-System] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m42s467ms).
+2024-06-28T00:47:42.713+08:00  INFO 18503 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Starting EmployeeSeatingSystemApplication using Java 17.0.10 with PID 18503 (/Users/liutingli/Desktop/esun/Employee-Seating-System/target/classes started by liutingli in /Users/liutingli/Desktop/esun/Employee-Seating-System)
+2024-06-28T00:47:42.714+08:00  INFO 18503 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-28T00:47:43.562+08:00  INFO 18503 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Started EmployeeSeatingSystemApplication in 0.986 seconds (process running for 1.235)
+2024-06-28T00:54:08.302+08:00  INFO 18638 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Starting EmployeeSeatingSystemApplication using Java 17.0.10 with PID 18638 (/Users/liutingli/Desktop/esun/Employee-Seating-System/target/classes started by liutingli in /Users/liutingli/Desktop/esun/Employee-Seating-System)
+2024-06-28T00:54:08.304+08:00  INFO 18638 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-28T00:54:09.114+08:00  INFO 18638 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Started EmployeeSeatingSystemApplication in 0.952 seconds (process running for 1.2)
+2024-06-28T00:57:52.294+08:00  INFO 18734 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Starting EmployeeSeatingSystemApplication using Java 17.0.10 with PID 18734 (/Users/liutingli/Desktop/esun/Employee-Seating-System/target/classes started by liutingli in /Users/liutingli/Desktop/esun/Employee-Seating-System)
+2024-06-28T00:57:52.295+08:00  INFO 18734 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-28T00:57:53.083+08:00  INFO 18734 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Started EmployeeSeatingSystemApplication in 0.925 seconds (process running for 1.168)
+2024-06-28T00:58:02.284+08:00  WARN 18734 --- [Employee-Seating-System] [http-nio-8081-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' is not supported]
+2024-06-28T01:03:39.110+08:00  INFO 18840 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Starting EmployeeSeatingSystemApplication using Java 17.0.10 with PID 18840 (/Users/liutingli/Desktop/esun/Employee-Seating-System/target/classes started by liutingli in /Users/liutingli/Desktop/esun/Employee-Seating-System)
+2024-06-28T01:03:39.111+08:00  INFO 18840 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-28T01:03:39.915+08:00  INFO 18840 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Started EmployeeSeatingSystemApplication in 0.946 seconds (process running for 1.199)
+2024-06-28T01:11:07.757+08:00  INFO 18971 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Starting EmployeeSeatingSystemApplication using Java 17.0.10 with PID 18971 (/Users/liutingli/Desktop/esun/Employee-Seating-System/target/classes started by liutingli in /Users/liutingli/Desktop/esun/Employee-Seating-System)
+2024-06-28T01:11:07.758+08:00  INFO 18971 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-28T01:11:08.563+08:00  INFO 18971 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Started EmployeeSeatingSystemApplication in 0.942 seconds (process running for 1.212)
+2024-06-28T01:16:10.796+08:00  INFO 19028 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Starting EmployeeSeatingSystemApplication using Java 17.0.10 with PID 19028 (/Users/liutingli/Desktop/esun/Employee-Seating-System/target/classes started by liutingli in /Users/liutingli/Desktop/esun/Employee-Seating-System)
+2024-06-28T01:16:10.797+08:00  INFO 19028 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-28T01:16:11.594+08:00  INFO 19028 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Started EmployeeSeatingSystemApplication in 0.944 seconds (process running for 1.167)
+2024-06-28T01:16:22.146+08:00 ERROR 19028 --- [Employee-Seating-System] [http-nio-8081-exec-1] com.example.demo.service.SeatService     : Failed to update seat and employee data
+2024-06-28T01:20:22.671+08:00  INFO 19096 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Starting EmployeeSeatingSystemApplication using Java 17.0.10 with PID 19096 (/Users/liutingli/Desktop/esun/Employee-Seating-System/target/classes started by liutingli in /Users/liutingli/Desktop/esun/Employee-Seating-System)
+2024-06-28T01:20:22.673+08:00  INFO 19096 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-28T01:20:23.417+08:00  INFO 19096 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Started EmployeeSeatingSystemApplication in 0.875 seconds (process running for 1.056)
+2024-06-28T01:20:42.583+08:00  INFO 19107 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Starting EmployeeSeatingSystemApplication using Java 17.0.10 with PID 19107 (/Users/liutingli/Desktop/esun/Employee-Seating-System/target/classes started by liutingli in /Users/liutingli/Desktop/esun/Employee-Seating-System)
+2024-06-28T01:20:42.584+08:00  INFO 19107 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-28T01:20:43.337+08:00  INFO 19107 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Started EmployeeSeatingSystemApplication in 0.879 seconds (process running for 1.057)
+2024-06-28T01:20:52.247+08:00 ERROR 19107 --- [Employee-Seating-System] [http-nio-8081-exec-1] com.example.demo.service.SeatService     : Failed to update seat and employee data
+2024-06-28T01:21:23.112+08:00  INFO 19117 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Starting EmployeeSeatingSystemApplication using Java 17.0.10 with PID 19117 (/Users/liutingli/Desktop/esun/Employee-Seating-System/target/classes started by liutingli in /Users/liutingli/Desktop/esun/Employee-Seating-System)
+2024-06-28T01:21:23.113+08:00  INFO 19117 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-28T01:21:23.862+08:00  INFO 19117 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Started EmployeeSeatingSystemApplication in 0.877 seconds (process running for 1.084)
+2024-06-28T01:21:30.084+08:00 ERROR 19117 --- [Employee-Seating-System] [http-nio-8081-exec-7] com.example.demo.service.SeatService     : Failed to update seat and employee data
+2024-06-28T01:24:37.194+08:00  INFO 19159 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Starting EmployeeSeatingSystemApplication using Java 17.0.10 with PID 19159 (/Users/liutingli/Desktop/esun/Employee-Seating-System/target/classes started by liutingli in /Users/liutingli/Desktop/esun/Employee-Seating-System)
+2024-06-28T01:24:37.196+08:00  INFO 19159 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-28T01:24:37.941+08:00  INFO 19159 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Started EmployeeSeatingSystemApplication in 0.873 seconds (process running for 1.068)
+2024-06-28T01:25:02.836+08:00 ERROR 19159 --- [Employee-Seating-System] [http-nio-8081-exec-7] com.example.demo.service.SeatService     : Failed to update seat and employee data
+2024-06-28T01:26:40.258+08:00  INFO 19181 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Starting EmployeeSeatingSystemApplication using Java 17.0.10 with PID 19181 (/Users/liutingli/Desktop/esun/Employee-Seating-System/target/classes started by liutingli in /Users/liutingli/Desktop/esun/Employee-Seating-System)
+2024-06-28T01:26:40.259+08:00  INFO 19181 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-28T01:26:41.005+08:00  INFO 19181 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Started EmployeeSeatingSystemApplication in 0.871 seconds (process running for 1.052)
+2024-06-28T01:30:48.624+08:00  INFO 19297 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Starting EmployeeSeatingSystemApplication using Java 17.0.10 with PID 19297 (/Users/liutingli/Desktop/esun/Employee-Seating-System/target/classes started by liutingli in /Users/liutingli/Desktop/esun/Employee-Seating-System)
+2024-06-28T01:30:48.628+08:00  INFO 19297 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-28T01:30:49.710+08:00  INFO 19297 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Started EmployeeSeatingSystemApplication in 1.321 seconds (process running for 1.656)
+2024-06-28T01:33:57.402+08:00  INFO 19364 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Starting EmployeeSeatingSystemApplication using Java 17.0.10 with PID 19364 (/Users/liutingli/Desktop/esun/Employee-Seating-System/target/classes started by liutingli in /Users/liutingli/Desktop/esun/Employee-Seating-System)
+2024-06-28T01:33:57.403+08:00  INFO 19364 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-28T01:33:58.204+08:00  INFO 19364 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Started EmployeeSeatingSystemApplication in 0.945 seconds (process running for 1.162)
+2024-06-28T01:47:41.837+08:00  INFO 19744 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Starting EmployeeSeatingSystemApplication using Java 17.0.10 with PID 19744 (/Users/liutingli/Desktop/esun/Employee-Seating-System/target/classes started by liutingli in /Users/liutingli/Desktop/esun/Employee-Seating-System)
+2024-06-28T01:47:41.838+08:00  INFO 19744 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-28T01:47:42.650+08:00  INFO 19744 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Started EmployeeSeatingSystemApplication in 0.958 seconds (process running for 1.22)
+2024-06-28T01:49:57.694+08:00  INFO 19781 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Starting EmployeeSeatingSystemApplication using Java 17.0.10 with PID 19781 (/Users/liutingli/Desktop/esun/Employee-Seating-System/target/classes started by liutingli in /Users/liutingli/Desktop/esun/Employee-Seating-System)
+2024-06-28T01:49:57.695+08:00  INFO 19781 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-28T01:49:58.571+08:00  INFO 19781 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Started EmployeeSeatingSystemApplication in 1.013 seconds (process running for 1.239)
+2024-06-28T01:55:54.700+08:00  INFO 19882 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Starting EmployeeSeatingSystemApplication using Java 17.0.10 with PID 19882 (/Users/liutingli/Desktop/esun/Employee-Seating-System/target/classes started by liutingli in /Users/liutingli/Desktop/esun/Employee-Seating-System)
+2024-06-28T01:55:54.702+08:00  INFO 19882 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-28T01:55:55.502+08:00  INFO 19882 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Started EmployeeSeatingSystemApplication in 0.94 seconds (process running for 1.194)
+2024-06-28T02:00:34.829+08:00  INFO 19959 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Starting EmployeeSeatingSystemApplication using Java 17.0.10 with PID 19959 (/Users/liutingli/Desktop/esun/Employee-Seating-System/target/classes started by liutingli in /Users/liutingli/Desktop/esun/Employee-Seating-System)
+2024-06-28T02:00:34.832+08:00  INFO 19959 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-28T02:00:35.668+08:00  INFO 19959 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Started EmployeeSeatingSystemApplication in 0.977 seconds (process running for 1.198)
+2024-06-28T02:06:24.187+08:00  INFO 20068 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Starting EmployeeSeatingSystemApplication using Java 17.0.10 with PID 20068 (/Users/liutingli/Desktop/esun/Employee-Seating-System/target/classes started by liutingli in /Users/liutingli/Desktop/esun/Employee-Seating-System)
+2024-06-28T02:06:24.188+08:00  INFO 20068 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-28T02:06:24.985+08:00  INFO 20068 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Started EmployeeSeatingSystemApplication in 0.935 seconds (process running for 1.183)
+2024-06-28T02:08:46.745+08:00  INFO 20068 --- [Employee-Seating-System] [http-nio-8081-exec-2] c.e.demo.controller.SeatController       : updateSeat: UpdateSeat(empId=13040, floorSeatSeq=9)
+2024-06-28T02:08:46.781+08:00 ERROR 20068 --- [Employee-Seating-System] [http-nio-8081-exec-2] com.example.demo.service.SeatService     : Failed to update seat and employee data
+2024-06-28T09:39:05.984+08:00  INFO 1038 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Starting EmployeeSeatingSystemApplication using Java 17.0.10 with PID 1038 (/Users/liutingli/Desktop/esun/Employee-Seating-System/target/classes started by liutingli in /Users/liutingli/Desktop/esun/Employee-Seating-System)
+2024-06-28T09:39:05.986+08:00  INFO 1038 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-28T09:39:07.765+08:00  WARN 1038 --- [Employee-Seating-System] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jdbcMappingContext' defined in class path resource [org/springframework/boot/autoconfigure/data/jdbc/JdbcRepositoriesAutoConfiguration$SpringBootJdbcConfiguration.class]: Unsatisfied dependency expressed through method 'jdbcMappingContext' parameter 1: Error creating bean with name 'jdbcCustomConversions' defined in class path resource [org/springframework/boot/autoconfigure/data/jdbc/JdbcRepositoriesAutoConfiguration$SpringBootJdbcConfiguration.class]: Failed to instantiate [org.springframework.data.jdbc.core.convert.JdbcCustomConversions]: Factory method 'jdbcCustomConversions' threw exception with message: Error creating bean with name 'jdbcDialect' defined in class path resource [org/springframework/boot/autoconfigure/data/jdbc/JdbcRepositoriesAutoConfiguration$SpringBootJdbcConfiguration.class]: Failed to instantiate [org.springframework.data.relational.core.dialect.Dialect]: Factory method 'jdbcDialect' threw exception with message: Failed to obtain JDBC Connection
+2024-06-28T09:39:07.802+08:00 ERROR 1038 --- [Employee-Seating-System] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jdbcMappingContext' defined in class path resource [org/springframework/boot/autoconfigure/data/jdbc/JdbcRepositoriesAutoConfiguration$SpringBootJdbcConfiguration.class]: Unsatisfied dependency expressed through method 'jdbcMappingContext' parameter 1: Error creating bean with name 'jdbcCustomConversions' defined in class path resource [org/springframework/boot/autoconfigure/data/jdbc/JdbcRepositoriesAutoConfiguration$SpringBootJdbcConfiguration.class]: Failed to instantiate [org.springframework.data.jdbc.core.convert.JdbcCustomConversions]: Factory method 'jdbcCustomConversions' threw exception with message: Error creating bean with name 'jdbcDialect' defined in class path resource [org/springframework/boot/autoconfigure/data/jdbc/JdbcRepositoriesAutoConfiguration$SpringBootJdbcConfiguration.class]: Failed to instantiate [org.springframework.data.relational.core.dialect.Dialect]: Factory method 'jdbcDialect' threw exception with message: Failed to obtain JDBC Connection
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:542) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1337) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1167) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962) ~[spring-context-6.1.10.jar:6.1.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.10.jar:6.1.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.1.jar:3.3.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.1.jar:3.3.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.1.jar:3.3.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.1.jar:3.3.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.1.jar:3.3.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.1.jar:3.3.1]
+	at com.example.demo.EmployeeSeatingSystemApplication.main(EmployeeSeatingSystemApplication.java:10) ~[classes/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jdbcCustomConversions' defined in class path resource [org/springframework/boot/autoconfigure/data/jdbc/JdbcRepositoriesAutoConfiguration$SpringBootJdbcConfiguration.class]: Failed to instantiate [org.springframework.data.jdbc.core.convert.JdbcCustomConversions]: Factory method 'jdbcCustomConversions' threw exception with message: Error creating bean with name 'jdbcDialect' defined in class path resource [org/springframework/boot/autoconfigure/data/jdbc/JdbcRepositoriesAutoConfiguration$SpringBootJdbcConfiguration.class]: Failed to instantiate [org.springframework.data.relational.core.dialect.Dialect]: Factory method 'jdbcDialect' threw exception with message: Failed to obtain JDBC Connection
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:648) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:485) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1337) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1167) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782) ~[spring-beans-6.1.10.jar:6.1.10]
+	... 19 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.jdbc.core.convert.JdbcCustomConversions]: Factory method 'jdbcCustomConversions' threw exception with message: Error creating bean with name 'jdbcDialect' defined in class path resource [org/springframework/boot/autoconfigure/data/jdbc/JdbcRepositoriesAutoConfiguration$SpringBootJdbcConfiguration.class]: Failed to instantiate [org.springframework.data.relational.core.dialect.Dialect]: Factory method 'jdbcDialect' threw exception with message: Failed to obtain JDBC Connection
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:177) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:644) ~[spring-beans-6.1.10.jar:6.1.10]
+	... 33 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jdbcDialect' defined in class path resource [org/springframework/boot/autoconfigure/data/jdbc/JdbcRepositoriesAutoConfiguration$SpringBootJdbcConfiguration.class]: Failed to instantiate [org.springframework.data.relational.core.dialect.Dialect]: Factory method 'jdbcDialect' threw exception with message: Failed to obtain JDBC Connection
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:648) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1337) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1167) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:225) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1323) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1284) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:486) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:341) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:334) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1252) ~[spring-context-6.1.10.jar:6.1.10]
+	at org.springframework.data.jdbc.repository.config.AbstractJdbcConfiguration.jdbcCustomConversions(AbstractJdbcConfiguration.java:154) ~[spring-data-jdbc-3.3.1.jar:3.3.1]
+	at org.springframework.boot.autoconfigure.data.jdbc.JdbcRepositoriesAutoConfiguration$SpringBootJdbcConfiguration.jdbcCustomConversions(JdbcRepositoriesAutoConfiguration.java:127) ~[spring-boot-autoconfigure-3.3.1.jar:3.3.1]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:140) ~[spring-beans-6.1.10.jar:6.1.10]
+	... 34 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.relational.core.dialect.Dialect]: Factory method 'jdbcDialect' threw exception with message: Failed to obtain JDBC Connection
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:177) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:644) ~[spring-beans-6.1.10.jar:6.1.10]
+	... 56 common frames omitted
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:84) ~[spring-jdbc-6.1.10.jar:6.1.10]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:342) ~[spring-jdbc-6.1.10.jar:6.1.10]
+	at org.springframework.data.jdbc.repository.config.DialectResolver$DefaultDialectProvider.getDialect(DialectResolver.java:108) ~[spring-data-jdbc-3.3.1.jar:3.3.1]
+	at org.springframework.data.jdbc.repository.config.DialectResolver.lambda$getDialect$0(DialectResolver.java:78) ~[spring-data-jdbc-3.3.1.jar:3.3.1]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1602) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647) ~[na:na]
+	at org.springframework.data.jdbc.repository.config.DialectResolver.getDialect(DialectResolver.java:80) ~[spring-data-jdbc-3.3.1.jar:3.3.1]
+	at org.springframework.data.jdbc.repository.config.AbstractJdbcConfiguration.jdbcDialect(AbstractJdbcConfiguration.java:227) ~[spring-data-jdbc-3.3.1.jar:3.3.1]
+	at org.springframework.boot.autoconfigure.data.jdbc.JdbcRepositoriesAutoConfiguration$SpringBootJdbcConfiguration.jdbcDialect(JdbcRepositoriesAutoConfiguration.java:151) ~[spring-boot-autoconfigure-3.3.1.jar:3.3.1]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:140) ~[spring-beans-6.1.10.jar:6.1.10]
+	... 57 common frames omitted
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:438) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:189) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-5.1.0.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:160) ~[spring-jdbc-6.1.10.jar:6.1.10]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:118) ~[spring-jdbc-6.1.10.jar:6.1.10]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81) ~[spring-jdbc-6.1.10.jar:6.1.10]
+	... 77 common frames omitted
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:104) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:149) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:165) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:88) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:120) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:935) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:805) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	... 90 common frames omitted
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:554) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:62) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	... 93 common frames omitted
+
+2024-06-28T09:39:21.609+08:00  INFO 1071 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Starting EmployeeSeatingSystemApplication using Java 17.0.10 with PID 1071 (/Users/liutingli/Desktop/esun/Employee-Seating-System/target/classes started by liutingli in /Users/liutingli/Desktop/esun/Employee-Seating-System)
+2024-06-28T09:39:21.610+08:00  INFO 1071 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-28T09:39:22.389+08:00  INFO 1071 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Started EmployeeSeatingSystemApplication in 0.905 seconds (process running for 1.133)
+2024-06-28T09:40:52.718+08:00  INFO 1088 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Starting EmployeeSeatingSystemApplication using Java 17.0.10 with PID 1088 (/Users/liutingli/Desktop/esun/Employee-Seating-System/target/classes started by liutingli in /Users/liutingli/Desktop/esun/Employee-Seating-System)
+2024-06-28T09:40:52.719+08:00  INFO 1088 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-28T09:40:53.463+08:00  INFO 1088 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Started EmployeeSeatingSystemApplication in 0.868 seconds (process running for 1.045)
+2024-06-28T09:58:11.916+08:00  INFO 1446 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Starting EmployeeSeatingSystemApplication using Java 17.0.10 with PID 1446 (/Users/liutingli/Desktop/esun/Employee-Seating-System/target/classes started by liutingli in /Users/liutingli/Desktop/esun/Employee-Seating-System)
+2024-06-28T09:58:11.917+08:00  INFO 1446 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-28T09:58:12.798+08:00  INFO 1446 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Started EmployeeSeatingSystemApplication in 1.05 seconds (process running for 1.301)
+2024-06-28T09:58:33.998+08:00  INFO 1478 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Starting EmployeeSeatingSystemApplication using Java 17.0.10 with PID 1478 (/Users/liutingli/Desktop/esun/Employee-Seating-System/target/classes started by liutingli in /Users/liutingli/Desktop/esun/Employee-Seating-System)
+2024-06-28T09:58:34.000+08:00  INFO 1478 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-28T09:58:34.793+08:00  INFO 1478 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Started EmployeeSeatingSystemApplication in 0.931 seconds (process running for 1.15)
+2024-06-28T11:24:23.438+08:00  WARN 1478 --- [Employee-Seating-System] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m17s970ms).
+2024-06-28T12:05:58.385+08:00  INFO 10093 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Starting EmployeeSeatingSystemApplication using Java 17.0.10 with PID 10093 (/Users/liutingli/Desktop/esun/Employee-Seating-System/target/classes started by liutingli in /Users/liutingli/Desktop/esun/Employee-Seating-System)
+2024-06-28T12:05:58.387+08:00  INFO 10093 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-28T12:05:59.250+08:00  INFO 10093 --- [Employee-Seating-System] [main] c.e.d.EmployeeSeatingSystemApplication   : Started EmployeeSeatingSystemApplication in 1.006 seconds (process running for 1.278)
+2024-06-28T12:56:52.509+08:00  WARN 10093 --- [Employee-Seating-System] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m53s61ms).
+2024-06-28T13:25:42.706+08:00  WARN 10093 --- [Employee-Seating-System] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=28m50s201ms).
