@@ -1,4 +1,4 @@
-# employee-seating
+# Employee-Seating-System-Frontend-8080
 
 ## Project setup
 ```

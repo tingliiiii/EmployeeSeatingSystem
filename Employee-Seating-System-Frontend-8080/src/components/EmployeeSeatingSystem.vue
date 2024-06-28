@@ -50,7 +50,7 @@
             </select>
             <div class="text-center mt-3">
               <button @click="submitSeatChange" class="btn btn-primary m-1">調整座位</button>
-              <button @click="resetSelection" class="btn btn-outline-primary m-1">取消</button>
+              <button @click="clearSelection" class="btn btn-outline-primary m-1">取消</button>
             </div>
           </div>
         </td>
@@ -102,6 +102,7 @@ import axios from 'axios';
 import Swal from 'sweetalert2';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap';
+import '../assets/style.css';
 
 export default {
   name: 'EmployeeSeatingSystem',
@@ -128,27 +129,22 @@ export default {
   },
   computed: {
     groupedSeats() {
-      return this.seats.reduce((groups, seat) => {
-        (groups[seat.floorNo] = groups[seat.floorNo] || []).push(seat);
-        return groups;
-      }, {});
+      const grouped = {};
+      this.seats.forEach(seat => {
+        if (!grouped[seat.floorNo]) {
+          grouped[seat.floorNo] = [];
+        }
+        grouped[seat.floorNo].push(seat);
+      });
+      // 排序每層樓的座位
+      for (let floorNo in grouped) {
+        grouped[floorNo].sort((a, b) => a.seatNo - b.seatNo);
+      }
+      return grouped;
     }
   },
   methods: {
-    async loadSeats() {
-      try {
-        const response = await axios.get('http://localhost:8081/seats');
-        const { state, message, data } = response.data;
-        if (state) {
-          this.seats = data;
-        } else {
-          Swal.fire(message, '請稍後再試', 'error');
-        }
-      } catch (error) {
-        console.error('Error loading seats:', error);
-        Swal.fire('下載座位資訊發生錯誤', error.message, 'error');
-      }
-    },
+    // 下載員工
     async loadEmployees() {
       try {
         const response = await axios.get('http://localhost:8081/employees');
@@ -163,11 +159,28 @@ export default {
         Swal.fire('下載員工資訊發生錯誤', error.message, 'error');
       }
     },
+    // 下載座位
+    async loadSeats() {
+      try {
+        const response = await axios.get('http://localhost:8081/seats');
+        const { state, message, data } = response.data;
+        if (state) {
+          this.seats = data;
+        } else {
+          Swal.fire(message, '請稍後再試', 'error');
+        }
+      } catch (error) {
+        console.error('Error loading seats:', error);
+        Swal.fire('下載座位資訊發生錯誤', error.message, 'error');
+      }
+    },
+    // 選擇座位
     selectSeat(seat) {
       if (!seat.empId) {
         this.selectedSeatId = seat.floorSeatSeq;
       }
     },
+    // 變更員工座位
     async submitSeatChange() {
       if (!this.selectedSeatId) {
         Swal.fire('請選擇座位', '', 'warning');
@@ -196,6 +209,7 @@ export default {
         Swal.fire('變更座位發生錯誤', error.message, 'error');
       }
     },
+    // 新增員工
     async addEmployee() {
       const { id, name, email } = this.newEmployee;
       if (!id || !name || !email) {
@@ -221,6 +235,7 @@ export default {
         Swal.fire('新增員工發生錯誤', error.message, 'error');
       }
     },
+    // 新增座位
     async addSeat() {
       const { floorNo, seatNo } = this.newSeat;
       if (!floorNo || !seatNo) {
@@ -245,77 +260,19 @@ export default {
         Swal.fire('新增座位失敗', error.message, 'error');
       }
     },
+    // 清除「新增員工」表單
     clearEmployeeForm() {
       this.newEmployee = { id: '', name: '', email: '' };
     },
+    // 清除「新增座位」表單
     clearSeatForm() {
       this.newSeat = { floorNo: '', seatNo: '' };
     },
-    resetSelection() {
+    // 清除「變更員工座位」選項
+    clearSelection() {
       this.selectedEmpId = '';
       this.selectedSeatId = null;
     }
   }
 };
 </script>
-
-<style scoped>
-body {
-  font-family: 'Noto Sans TC', sans-serif;
-}
-
-td {
-  vertical-align: top;
-}
-
-.seat {
-  width: 200px;
-  height: 50px;
-  margin: 5px;
-  display: inline-block;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 50px;
-  font-size: 1em;
-  font-weight: bold;
-  border-radius: .5em;
-}
-
-.seat.empty:hover{
-  cursor: pointer;
-  width: 210px;
-  font-size: 1.2em;
-}
-
-.empty {
-  background-color: #eee;
-}
-
-.occupied {
-  background-color: #f40000;
-  color: #fff;
-}
-
-.selected {
-  background-color: rgb(123 194 123);
-}
-
-.legend {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-.legend-item {
-  display: flex;
-  align-items: center;
-  margin: 0 10px;
-}
-
-.legend-color {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  margin-right: 5px;
-}
-</style>

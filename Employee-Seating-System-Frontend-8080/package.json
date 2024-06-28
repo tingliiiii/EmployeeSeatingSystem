@@ -1,5 +1,5 @@
 {
-  "name": "employee-seating",
+  "name": "employee-seating-system-frontend",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,7 +11,7 @@
     "axios": "^1.7.2",
     "bootstrap": "^5.3.3",
     "core-js": "^3.8.3",
-    "sweetalert2": "^11.12.0",
+    "sweetalert2": "^11.6.13",
     "vue": "^3.2.13"
   },
   "devDependencies": {
@@ -19,7 +19,7 @@
     "@babel/eslint-parser": "^7.12.16",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
+    "@vue/cli-service": "^5.0.8",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3"
   },
