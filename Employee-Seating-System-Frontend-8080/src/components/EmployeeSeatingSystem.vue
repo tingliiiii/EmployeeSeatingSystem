@@ -7,11 +7,6 @@
         <!-- 座位圖 -->
         <td colspan="3" class="text-center">
           <div id="seating-chart" class="m-4">
-            <!-- 
-            <div v-for="seat in seats" :key="seat.floorSeatSeq" class="seat" :class="{ occupied: seat.empId, empty: !seat.empId, selected: selectedSeatId === seat.floorSeatSeq }" @click="selectSeat(seat)">
-              <div>{{ seat.floorNo }}樓: 座位{{ seat.seatNo }} <span v-if="seat.empId">[員編: {{ seat.empId }}]</span></div>
-            </div>
-             -->
             <div v-for="(floorSeats, floorNo) in groupedSeats" :key="floorNo">
               <div v-for="seat in floorSeats" :key="seat.floorSeatSeq" class="seat"
                 :class="{ occupied: seat.empId, empty: !seat.empId, selected: selectedSeatId === seat.floorSeatSeq }"
@@ -21,6 +16,7 @@
               </div>
             </div>
           </div>
+          <!-- 圖例 -->
           <div class="legend">
             <div class="legend-item">
               <div class="legend-color empty"></div>
@@ -108,7 +104,7 @@ export default {
   name: 'EmployeeSeatingSystem',
   data() {
     return {
-      seats: [],
+      seats: [], 
       employees: [],
       selectedSeatId: null,
       selectedEmpId: '',
@@ -128,6 +124,7 @@ export default {
     this.loadEmployees();
   },
   computed: {
+    // 將 seats 中的座位資料按照樓層分組並進行排序
     groupedSeats() {
       const grouped = {};
       this.seats.forEach(seat => {
@@ -144,7 +141,7 @@ export default {
     }
   },
   methods: {
-    // 下載員工
+    // 下載員工資料
     async loadEmployees() {
       try {
         const response = await axios.get('http://localhost:8081/employees');
@@ -159,7 +156,7 @@ export default {
         Swal.fire('下載員工資訊發生錯誤', error.message, 'error');
       }
     },
-    // 下載座位
+    // 下載座位資料
     async loadSeats() {
       try {
         const response = await axios.get('http://localhost:8081/seats');
