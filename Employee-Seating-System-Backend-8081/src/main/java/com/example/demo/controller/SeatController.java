@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.model.dto.UpdateSeat;
-import com.example.demo.model.po.Employee;
 import com.example.demo.model.po.Seat;
 import com.example.demo.model.response.ApiResponse;
 import com.example.demo.model.response.StatusMessage;
