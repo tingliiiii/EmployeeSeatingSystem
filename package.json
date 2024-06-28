@@ -1,0 +1,12 @@
+{
+  "name": "employeeseatingsystem",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "Employee-Seating-System"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
